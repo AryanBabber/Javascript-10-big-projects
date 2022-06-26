@@ -6,3 +6,4 @@ This is Florin pop's 10 projects in 10 hours challenge where I test myself to fi
 - Quiz App
 - Recipe App
 - Notes App
+- ToDo App
