@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding-top: 3rem; */
+    margin: 0;
+    align-items: center;
+    background-color: #FFA500;
+    background: linear-gradient(135deg, #1f1f1f 10%, #FFA500 20%, #1f1f1f 40%, #FFA500 60%, #1f1f1f 80%, #FFA500 90%);
+    /* font-family: "Poppins", sa; */
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+}
+
+.add {
+    background-color: #9ec862;
+    border-radius: 10px;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+}
+
+.notes {
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    /* margin-bottom: ; */
+    height: 440px;
+    width: 400px;
+}
+
+.tools {
+    background-color: #9ec862;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.6rem;
+}
+
+.tools button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.notes .main {
+    width: 100%;
+    
+    height: 400px;
+    background-color: #ddd;
+    /* display: none; */
+    overflow: hidden;
+}
+
+.notes textarea {
+    width: 100%;
+    height: 400px;
+    font-size: 1.2rem;
+    outline: none;
+    /* position: fixed; */
+    font-family: inherit;
+}
+
+.notes .hidden {
+    display: none;
+}
