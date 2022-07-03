@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+    height: 100vh;
+}
+
+.container{
+    background-color: #1F2937;
+    height: 800px;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px #0ff;    
+}
+
+.cont-text{
+    margin-top: 20%;
+    margin-left: 15%;
+    font-size: 35px;
+    color: #fff;    
+}
+
+.head-bottom{
+    color: #4adf86;
+}
+
+.subtext{
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+#pass-gen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 30%;
+    background-color: #10B981;
+    border: 0;
+    margin: 30px 0px 0px 15%;
+    border-radius: 6px;
+    color: white;
+}
+
+#pass-gen h3{
+    padding: 20px;
+
+}
+
+#pass-gen img{
+    width: 25px;
+    margin-right: 10px;
+    height: 25px;
+}
+
+#copyPass,#password1{
+    width: 90%;
+    height: 70px;
+    border: 0;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 24px;
+    margin-left: 5%;
+    margin-top: 30px;
+    background-color: #10B981;
+}
+
+#password1{
+    background-color: #273549 ;
+    color: #10B981;
+    text-align: center;
+}
